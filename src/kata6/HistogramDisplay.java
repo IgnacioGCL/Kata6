@@ -23,7 +23,7 @@ public class HistogramDisplay<T> extends ApplicationFrame {
 
     private ChartPanel createPanel() {
         ChartPanel chartPanel = new ChartPanel(createChart(createDataset()));
-        chartPanel.setPreferredSize(new Dimension(500, 450));
+        chartPanel.setPreferredSize(new Dimension(500, 500));
         return chartPanel;
     }
 

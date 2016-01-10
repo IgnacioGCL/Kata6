@@ -13,7 +13,6 @@ public class MailListReader {
         Integer id = 0;
         while ((mail = read.readLine()) != null) {
             if (mail.contains("@")) {
-                //mailList.add(mail);
                 mailList.add(new Person(id, mail));
             }
         }
